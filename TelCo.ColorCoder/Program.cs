@@ -15,7 +15,6 @@ namespace TelCo.ColorCoder
         {
             ColorsTest.GetColorFromPairNumberTest();
             ColorsTest.GetPairNumberFromColorTest();
-            ColorCodeRegistryTest.ToStringTest();
         }
     }
 }
