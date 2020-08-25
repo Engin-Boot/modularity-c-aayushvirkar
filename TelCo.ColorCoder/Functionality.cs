@@ -3,7 +3,7 @@ namespace TelCo.ColorCoder
 { 
  public class Functionality
     {
-      private static ColorPair GetColorFromPairNumber(int pairNumber)
+      public static ColorPair GetColorFromPairNumber(int pairNumber)
         {
             int minorSize = colorMapMinor.Length;
             int majorSize = colorMapMajor.Length;
@@ -19,7 +19,7 @@ namespace TelCo.ColorCoder
                 minorColor = colorMapMinor[minorIndex] };
             return pair;
         }
-      private static int GetPairNumberFromColor(ColorPair pair)
+      public static int GetPairNumberFromColor(ColorPair pair)
         {
             int majorIndex = -1;
             for (int i = 0; i < colorMapMajor.Length; i++)
