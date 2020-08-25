@@ -48,3 +48,4 @@ namespace TelCo.ColorCoder
             return (majorIndex * colorMapMinor.Length) + (minorIndex + 1);
     }
 }
+}
