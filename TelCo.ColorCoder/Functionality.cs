@@ -1,6 +1,6 @@
 using System;
 namespace TelCo.ColorCoder
-{
+{ 
   class Functionality
     {
       private static ColorPair GetColorFromPairNumber(int pairNumber)
@@ -44,6 +44,6 @@ namespace TelCo.ColorCoder
                     string.Format("Unknown Colors: {0}", pair.ToString()));
             }
             return (majorIndex * colorMapMinor.Length) + (minorIndex + 1);
-    }
-}
-}
+      }
+  }
+} 
