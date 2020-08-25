@@ -17,7 +17,6 @@ namespace TelCo.ColorCoder
             int minorIndex = zeroBasedPairNumber % minorSize;
             ColorPair pair = new ColorPair() { majorColor = colorMapMajor[majorIndex],
                 minorColor = colorMapMinor[minorIndex] };
-          
             return pair;
         }
       private static int GetPairNumberFromColor(ColorPair pair)
@@ -39,7 +38,6 @@ namespace TelCo.ColorCoder
                     minorIndex = i; break;
                 }
             }
-            // If colors can not be found throw an exception
             if (majorIndex == -1 || minorIndex == -1)
             {
                 throw new ArgumentException(
