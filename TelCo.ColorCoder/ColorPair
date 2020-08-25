@@ -1,6 +1,6 @@
 using System.Drawing;
 
-namespace TelCo.ColorCoder.Data
+namespace TelCo.ColorCoder
 {
     internal class ColorPair
     {
