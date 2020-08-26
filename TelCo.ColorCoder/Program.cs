@@ -8,12 +8,9 @@ namespace TelCo.ColorCoder
     internal class Program
     {
         
-        internal static Color[] colorMapMajor;
-        internal static Color[] colorMapMinor;
-        static Program()
-        {
-            colorMapMajor = new Color[] { Color.White, Color.Red, Color.Black, Color.Yellow, Color.Violet };
-            colorMapMinor = new Color[] { Color.Blue, Color.Orange, Color.Green, Color.Brown, Color.SlateGray };
+     internal static Color[] colorMapMajor = { Color.White, Color.Red, Color.Black, Color.Yellow, Color.Violet };
+     internal static Color[] colorMapMinor = new Color[] { Color.Blue, Color.Orange, Color.Green, Color.Brown, Color.SlateGray};
+       
         }
         public static void Main(string[] args)
         {
