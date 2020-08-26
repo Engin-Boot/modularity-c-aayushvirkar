@@ -4,14 +4,8 @@ using System.Drawing;
 
 namespace TelCo.ColorCoder
 {
-   
     public class Program
     {
-        
-     public static Color[] colorMapMajor = { Color.White, Color.Red, Color.Black, Color.Yellow, Color.Violet };
-     public static Color[] colorMapMinor = new Color[] { Color.Blue, Color.Orange, Color.Green, Color.Brown, Color.SlateGray};
-       
-     
         public static void Main(string[] args)
         {
             int pairNumber = 4;
