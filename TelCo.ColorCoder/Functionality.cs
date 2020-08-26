@@ -1,7 +1,7 @@
 using System;
 namespace TelCo.ColorCoder
 { 
- internal class Functionality
+ public class Functionality
     {
       public static ColorPair GetColorFromPairNumber(int pairNumber)
         {
