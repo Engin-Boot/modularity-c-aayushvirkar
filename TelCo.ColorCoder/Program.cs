@@ -5,7 +5,7 @@ using System.Drawing;
 namespace TelCo.ColorCoder
 {
    
-    class Program
+    internal class Program
     {
         
         internal static Color[] colorMapMajor;
