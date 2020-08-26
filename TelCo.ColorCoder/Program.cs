@@ -11,7 +11,7 @@ namespace TelCo.ColorCoder
      internal static Color[] colorMapMajor = { Color.White, Color.Red, Color.Black, Color.Yellow, Color.Violet };
      internal static Color[] colorMapMinor = new Color[] { Color.Blue, Color.Orange, Color.Green, Color.Brown, Color.SlateGray};
        
-        }
+     }
         public static void Main(string[] args)
         {
             int pairNumber = 4;
@@ -43,4 +43,3 @@ namespace TelCo.ColorCoder
             Debug.Assert(pairNumber == 6);
         }
     }
-}
